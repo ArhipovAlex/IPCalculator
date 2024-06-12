@@ -24,6 +24,7 @@ BOOL CALLBACK DlgProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 		SetFocus(GetDlgItem(hwnd, IDC_IPADDRESS));
 	}
+
 	break;
 	case WM_COMMAND:
 	{
